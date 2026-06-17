@@ -3,10 +3,10 @@
 
 // 1. Mengimport semua file class yang dibutuhkan
 require_once 'koneksi/database.php';
-require_once 'Tiket.php';
-require_once 'TiketRegular.php';
-require_once 'TiketIMAX.php';
-require_once 'TiketVelvet.php';
+require_once 'tiket.php';
+require_once 'tiket_regular.php';
+require_once 'tiket_imax.php';
+require_once 'tiket_velvet.php';
 
 // 2. Instansiasi objek database
 $db = new Database();
