@@ -2,9 +2,9 @@
 
 class Database {
     private $host = "localhost";
-    private $username = "root"; // Sesuaikan dengan username phpMyAdmin Anda
-    private $password = "";     // Sesuaikan dengan password phpMyAdmin Anda
-    private $db_name = "nama_database_anda"; // GANTI dengan nama database Anda
+    private $username = "root"; 
+    private $password = "";     
+    private $db_name = "db_latihan_pbo_ti1c_dwitadiyahpratiwi"; 
     public $conn;
 
     public function __construct() {
